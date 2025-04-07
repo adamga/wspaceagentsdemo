@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "test": "cd backend && npm test && cd ../frontend && npm test",
+    "build": "cd backend && npm install && cd ../frontend && npm install",
+    "launch": "cd backend && npm start && cd ../frontend && npm start"
+  }
+}
